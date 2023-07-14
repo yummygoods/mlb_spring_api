@@ -1,7 +1,7 @@
 import { Authorizer } from "@authorizerdev/authorizer-js";
 
 const authRef = new Authorizer({
-  authorizerURL: "https://mlbspringapi-production-df09.up.railway.app/login",
+  authorizerURL: "https://authorizer-production-cb42.up.railway.app",
   redirectURL: "http://app.heroku.com/app",
 });
 
